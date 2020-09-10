@@ -175,14 +175,14 @@ Once we can get our form to properly update the values in our redux state, we ne
 ```js
 import React from 'react'
 import { connect } from 'react-redux'
-import { updateMovieList } from '../ducks/moviesReducer'
+// import { updateMovieList } from '../ducks/moviesReducer'
 import styles from './styles'
 
-const MovieConfirm = props => {
-  const { title, poster, rating } = props
-  const confirmMovie = () => {
-    props.history.push('/list')
-  }
+// const MovieConfirm = props => {
+//   const { title, poster, rating } = props
+//   const confirmMovie = () => {
+//     props.history.push('/list')
+//   }
 
   console.log(props)
 
